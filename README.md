@@ -1,5 +1,6 @@
-# CSGO-Valorant-Simulator
-2-D CSGO/Valorant matches playable on the user console - C++
+# Topdown-Shooter-Simulator
+2-D top down shooter matches playable on the user console - C++
+Based on popular shooting titles such as CSGO and Valorant
 
 Controls:
 Movement - WASD / Arrow Keys
