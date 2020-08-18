@@ -38,20 +38,3 @@ nnnnnnnnnnnnnnnnnnnnnnnnx  PPPPPPPooPxnx            xnnnnnnnnnx   xxxxxxxxxxxxxx
 nnnnnnnnnnnnnnnnnnnnnnnnx  PPooPPPPPPxnx      xx    xnnnnnnnnnxxxxxnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 nnnnnnnnnnnnnnnnnnnnnnnnxxxxxxxxxxxxxxnxxxxxxxxxxxxxxnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-
-Made By: Matthew Wells
-
-Key:
-#: Can only go horizontal or vertical depending on dir entered (ghetto mimic of tunnel/bridge)
-x: Wall (cannot shoot, see, or go through
-o: Obstacle (can see/shoot but can't pass through)
-blank space: is open space (can see, shoot, and walk through in any vertical, horizontal or diagonal direction)
-B: Bomb spawn and/or current location
-C: Counter-Terrorist Spawn Location (or active C AI player)
-T: Terrorist Spawn Location (or active C AI player)
-@: Player (so the player that you control)
-P: Area where you can plant bomb (free to walk around it)
-n: null area (basically a wall that isn't accessible, so to save memory, set it to null) 
-1: same as P but just to help indicate that this is A Site 
-2: same as P but just to help indicate that this is B Site
-G: Gun dropped by a player
