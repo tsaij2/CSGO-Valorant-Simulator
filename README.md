@@ -1,6 +1,12 @@
 # Topdown-Shooter-Simulator
-2-D top down shooter matches playable on the user console - C++
+2-D top down shooter matches playable on the user terminal - C++
 Based on popular shooting titles such as CSGO and Valorant
+
+*IMPORTANT* Program requires ncurses library *IMPORTANT*
+How to compile with ncurses: g++ Simulator.cpp -lncurses -std=c++11
+
+Terminal input takes the map file you decide to use as its only argument.
+Example : ./a.out COD_Shipment.txt
 
 Controls:
 Movement - WASD / Arrow Keys
@@ -18,3 +24,13 @@ Win Conditions: Counter-Terrorist (CT)
 Kill opposing team
 Defuse bomb
 Round timer runs out
+
+ASCII Map Legend:
+# : Bridge
+X : Wall
+O : Obstacle
+B : Bomb
+C : Counter-Terrorist
+T : Terrorist
+P : Bombsite
+n : Map outline
